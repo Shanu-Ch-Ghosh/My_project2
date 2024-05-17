@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: rgb(63, 63, 245);
+  width: 100vw;
+  height: 80px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  margin: 0 80px;
+}
+
+.list_items ul {
+  display: flex;
+  gap: 50px;
+}
+
+.list_items ul a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.list_items ul a li {
+  color: whitesmoke;
+  list-style: none;
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.2s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+
+.list_items ul a li:hover {
+  color: aquamarine;
+  cursor: pointer;
+  border-bottom: 2px solid rgb(243, 43, 43);
+  transition: 0.2s ease-in-out;
+}
+
+.logo_section {
+  font-size: 22px;
+  color: rgb(233, 187, 73);
+}
+
+.body_part {
+  background-image: url(hero_image.png);
+  width: 100vw;
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: -180px;
+}
+
+.body_part h1 {
+  font-size: 60px;
+  font-style: 900;
+}
+
+.body_part h1 span {
+  color: yellowgreen;
+}
+
+.body_part h3 {
+  font-size: 26px;
+}
+
+.body_part p {
+  width: 800px;
+}
+
+.songs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  color: wheat;
+  background-color: blueviolet;
+}
+
+.songs h1 {
+  margin-top: 28px;
+  font-size: 45px;
+}
+
+.songs h1 i {
+  margin-right: 12px;
+  color: rgb(148, 243, 7);
+  font-size: 36px;
+}
+
+.songs h3 {
+  font-size: 22px;
+}
+
+.songs p {
+  width: 900px;
+}
+
+.songs button {
+  width: 180px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: lighter;
+  color: whitesmoke;
+  background-color: red;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+
+.songs button:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.songs h5 {
+  margin-bottom: 12px;
+}
+
+.phone_image {
+  margin-top: -400px;
+  position: relative;
+  top: 400px;
+}
+
+.about_music {
+  padding-top: 500px;
+  display: grid;
+  place-items: center;
+  gap: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about_music p {
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  width: 900px;
+}
+
+.about_music h2 {
+  font-size: 25px;
+}
+
+.about_music button {
+  background-color: blue;
+  color: aliceblue;
+  padding: 12px 22px;
+  font-size: 18px;
+}
+
+.about_music button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.video_section {
+  background-image: url(video.png);
+  width: 100vw;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.video_container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.video_container p {
+  width: 900px;
+}
+
+.gift_card {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.gift_card .gift_content {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.gift_card .btn_part {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gift_card #btn_lower {
+  width: 100px;
+  padding: 12px 22px;
+  background-color: rgb(22, 22, 228);
+  color: antiquewhite;
+}
+
+.gift_card #btn_lower:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.gift_card p {
+  font-size: 15px;
+}
+
+.list_footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.877);
+  height: 300px;
+}
+
+.list_footer .list {
+  display: grid;
+  gap: 25px;
+}
+
+.list_footer .list h3 {
+  border-bottom: 1px solid whitesmoke;
+  color: aquamarine;
+}
+
+.list_footer ul li {
+  list-style: none;
+  font-size: 14px;
+}
+
+.copyright {
+  height: 45px;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.788);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 100;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
